@@ -18,7 +18,7 @@ public class ProviderApplication {
         
         @RequestMapping("/provider")
         public String providerApi(String name) {
-            return "provider : " + name;
+            return "provider : xx, 接收到" + name + "的请求";
         }
     }
 }

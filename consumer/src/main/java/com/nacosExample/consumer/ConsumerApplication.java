@@ -46,7 +46,7 @@ public class ConsumerApplication {
             }
             String targetUrl = instance.getUri() + "provider?name=" + name;
             String response = restTemplate.getForObject(targetUrl, String.class);
-            return "consumer : " + name + "消费了" + response + "的资源";
+            return "consumer : " + name + "，" + response ;
         }
     }
     

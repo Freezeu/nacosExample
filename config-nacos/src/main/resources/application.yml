@@ -1,0 +1,12 @@
+nacos:
+  config:
+    server-addr: 127.0.0.1:8848
+    bootstrap:
+      enable: true
+      log-enable: true
+    data-id: example
+    type: YAML
+    group: DEFAULT_GROUP
+    namespace:
+server:
+  port: 18080
